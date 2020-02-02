@@ -1,0 +1,30 @@
+{
+  "name": "posts",
+  "version": "1.0.0",
+  "description": "Blog post archive for personal site",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "new": "hygen post new "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mthomps4/posts.git"
+  },
+  "keywords": [
+    "Blog",
+    "Posts",
+    "Mthomps4",
+    "mthomps4.com/blog"
+  ],
+  "author": "Matthew Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mthomps4/posts/issues"
+  },
+  "homepage": "https://github.com/mthomps4/posts#readme",
+  "dependencies": {
+    "hygen": "^5.0.3",
+    "hygen-create": "^0.2.1"
+  }
+}
