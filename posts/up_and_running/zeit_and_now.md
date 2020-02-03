@@ -1,6 +1,6 @@
 
 # Up and Running: ZEIT Now Environments
-[title-image](./images/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg)
+[title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg)
 
 Photo by [Dominik Schröder](https://unsplash.com/@wirhabenzeit?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
