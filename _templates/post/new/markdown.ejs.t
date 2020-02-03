@@ -1,5 +1,5 @@
 ---
-to: posts/<%= h.inflection.underscore(name) %>/index.md
+to: posts/<%= h.inflection.underscore(name) %>/<%= h.inflection.underscore(name) %>.md
 ---
 
 # <%= h.inflection.titleize(h.inflection.underscore(name)) %>
