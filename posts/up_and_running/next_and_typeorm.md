@@ -1,6 +1,6 @@
 # Up and Running — Next.js and TypeORM - Part II
 
-[title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg)
+![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg)
 
 Photo by [Kevin Ku](https://unsplash.com/@ikukevk) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
