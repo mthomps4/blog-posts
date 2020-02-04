@@ -2,7 +2,7 @@
 
 ![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg)
 
-Photo by [Kevin Ku](https://unsplash.com/@ikukevk) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
+Photo by [Kevin Ku](https://unsplash.com/@ikukevk) on [Unsplash](https://unsplash.com/)
 
 Welcome to Up and Running — Part II
 
@@ -59,7 +59,17 @@ TypeORM has a lot of built-in helpers for generating the core entities and migra
 
 To start we are going to look at a couple of setup scripts that will leave us with a base User model.
 
-    "db:setup": "yarn db:create:dev && yarn db:create:test","db:create:dev": "createdb --owner=postgres next_now_dev","db:create:test": "createdb --owner=postgres next_now_test","g:migration": "yarn typeorm:local migration:generate -n","g:entity": "yarn typeorm:local entity:create -n","typeorm:local": "yarn local ./node_modules/typeorm/cli.js","local": "DOTENV_CONFIG_PATH=./.env ts-node -P ./tsconfig.yarn.json -r dotenv/config",
+```json
+{
+    "db:setup": "yarn db:create:dev && yarn db:create:test",
+    "db:create:dev": "createdb --owner=postgres next_now_dev",
+    "db:create:test": "createdb --owner=postgres next_now_test",
+    "g:migration": "yarn typeorm:local migration:generate -n",
+    "g:entity": "yarn typeorm:local entity:create -n",
+    "typeorm:local": "yarn local ./node_modules/typeorm/cli.js",
+    "local": "DOTENV_CONFIG_PATH=./.env ts-node -P ./tsconfig.yarn.json -r dotenv/config"
+}
+```
 
 The first block of lines here is fairly straight forward. We want to create a quick `db:setup` script that will create our Postgres tables. This just helps on-board others and helps yourself remember when the project has set on a shelf for a month or two. Things I *never* do.
 
@@ -71,7 +81,7 @@ So we have a script that creates our databases and scripts to create an entity a
 
 If you are following along in the repo take a peek at `.env.example` quite a few variables have been added in for TypeORM.
 
-![https://miro.medium.com/max/1102/1*GTCD1b-attEzv8DFAwrvxw.png](https://miro.medium.com/max/1102/1*GTCD1b-attEzv8DFAwrvxw.png)
+![env example photo](https://raw.githubusercontent/mthomps4/posts/master/posts/up_and_running/images/now-next/envexample.png)
 
 You have the normal DB setup here with connection type, host, db, port, etc. but we also have some ENV’s set for Entities Migrations and their respective directories. TypeORM will look to these files when making a comparison for migrations and use the directories when we generate new content. If you look into the root of our project you’ll see a folder set for both.
 

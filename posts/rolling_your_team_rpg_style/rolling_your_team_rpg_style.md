@@ -2,11 +2,12 @@
 # Rolling Your Team RPG Style
 ![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/rolling_your_team_rpg_style/images/erica-li-Swd6d6M233k-unsplash.jpg)
 
-Photo by [Erica Li](https://unsplash.com/@sept_pancake) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
+Photo by [Erica Li](https://unsplash.com/@sept_pancake) on [Unsplash](https://unsplash.com/)
 
 As hard as it is for some people to believe, developers are not robots, we are human beings. Even harder to believe, we each have unique personalities. Some days it feels like we are in a bad enterprise commercial. We each speak to our own “sport”, explaining that we actually did(do) something else with our lives besides stare at code all day and manage expectations. I don’t know about you, but it’s weird. While we are aware of this, we rarely seem to leverage our personalities when forming teams and taking on a project. We should be more self-aware and pay attention to the types of people we interact with mixing our personalities to shape how we operate in our day-to-day.
 
-There are many ways to get a glimpse into your friends and co-workers' personalities, Myers-Briggs, Enneagram, Karaoke, etc. Keeping the geeky stereotype alive I wanted to compare some of these personality traits to that of an RPG (role-playing game) character. People spend countless hours in what is called “rolling a character” or creating the perfect combination of skills to mix with their playing style. They spend even more time pairing a character with others to ensure a successful mission in the game. The goal is to understand your character’s strengths and weaknesses in hopes to find a balance with your teammates. So why don’t we take the time to do this in real life?
+There are many ways to get a glimpse into your friends and co-workers' personalities, Myers-Briggs, Enneagram, Karaoke, etc. Keeping the geeky stereotype alive I wanted to compare some of these personality t
+raits to that of an RPG (role-playing game) character. People spend countless hours in what is called “rolling a character” or creating the perfect combination of skills to mix with their playing style. They spend even more time pairing a character with others to ensure a successful mission in the game. The goal is to understand your character’s strengths and weaknesses in hopes to find a balance with your teammates. So why don’t we take the time to do this in real life?
 
 If you’ve never played a role-playing type game before, don’t worry the breakdown is fairly simple to pick up. I’ll be alluding to these types of characters:
 
@@ -36,9 +37,9 @@ Typically right behind the tank is another armor-clad warrior carrying a large a
 
 Similar to the melee attacker, the goal here is to clear the field. However, the ranged attacker always seems to be a bit more *specialized* in their area and able to focus on objectives and typically single targets. Surprisingly enough the melee attacker cannot just charge through and expect to make it out alive. They get cocky… the ranged attacker knows this and has their back. As the melee starts clearing the field and moving forward, ranged support picks off targets missed by or flanking the warrior. However helpful, this is not their sole job. Ranged support can also pair with the scouts and start carving the battlefield to move the team forward. A *friendly* competition normally occurs between the melee and ranged folks about which approach is better, but you need both to succeed. They also feel validated when the field is clear and the job is done.
 
-[https://gph.is/2HH6Vcu](https://gph.is/2HH6Vcu)
+![https://media.giphy.com/media/4KFx5Z7VjWUvQNYLUO/giphy.gif](https://media.giphy.com/media/4KFx5Z7VjWUvQNYLUO/giphy.gif)
 
-[https://gph.is/2HH6Vcu](https://gph.is/2HH6Vcu)
+[https://media.giphy.com/media/4KFx5Z7VjWUvQNYLUO/giphy.gif](https://media.giphy.com/media/4KFx5Z7VjWUvQNYLUO/giphy.gif)
 
 **The Healer**
 
@@ -75,6 +76,7 @@ In the end, whether real-world projects or fantasy middle earth battles, remembe
 
 **Until next time …**
 
-[https://media.giphy.com/media/xb38NSYp5Nyo0/giphy.gif](https://media.giphy.com/media/xb38NSYp5Nyo0/giphy.gif)
 
 ![https://media.giphy.com/media/xb38NSYp5Nyo0/giphy.gif](https://media.giphy.com/media/xb38NSYp5Nyo0/giphy.gif)
+
+[https://media.giphy.com/media/xb38NSYp5Nyo0/giphy.gif](https://media.giphy.com/media/xb38NSYp5Nyo0/giphy.gif)

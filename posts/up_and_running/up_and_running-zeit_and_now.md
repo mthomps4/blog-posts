@@ -2,7 +2,7 @@
 # Up and Running: ZEIT Now Environments
 ![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg)
 
-Photo by [Dominik Schröder](https://unsplash.com/@wirhabenzeit?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
+Photo by [Dominik Schröder](https://unsplash.com/@wirhabenzeit?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/)
 
 If you’re a JavaScript developer you’ve probably heard mention of [zeit.co / Now](https://zeit.co/) and all their plans to have a zero-config setup for app deployments. One of their main goals is to provide a seamless solution to deploy your JavaScript apps such as a Next.js app without all the DevOps hassles and shell scripts. While that’s not all they do, it’s what I’ll be expanding on here. Short, simply install Now and run the command `now` from the root of your project and this will push and deploy a version of your app to Zeit's hosting site. Integrating further with GitHub, and Now will also deploy a live branch of your site based on commits and PRs of your feature branch for review.
 
@@ -76,7 +76,5 @@ Let’s look at one of these in detail, ignoring NOW_TOKEN all of these commands
 
 With these two yarn commands, GitLab CI/CD will deploy and alias our domains as expected. Merging a branch into staging will update `[staging-next-now-test.now.sh](<http://staging-next-now-test.now.sh>)` and merging to master will update `production-next-now-test.now.sh`.
 
-![https://miro.medium.com/max/30/1*_W-g11bFKTwQmrfx4w9AGw.png?q=20](https://miro.medium.com/max/30/1*_W-g11bFKTwQmrfx4w9AGw.png?q=20)
-
-![https://miro.medium.com/max/1235/1*_W-g11bFKTwQmrfx4w9AGw.png](https://miro.medium.com/max/1235/1*_W-g11bFKTwQmrfx4w9AGw.png)
+![Deployed Example Photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/deployedExample.png)
 
