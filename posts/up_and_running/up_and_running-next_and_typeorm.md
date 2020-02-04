@@ -81,27 +81,25 @@ So we have a script that creates our databases and scripts to create an entity a
 
 If you are following along in the repo take a peek at `.env.example` quite a few variables have been added in for TypeORM.
 
-![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/envexample.png)
+![env example](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/envexample.png)
 
 You have the normal DB setup here with connection type, host, db, port, etc. but we also have some ENV’s set for Entities Migrations and their respective directories. TypeORM will look to these files when making a comparison for migrations and use the directories when we generate new content. If you look into the root of our project you’ll see a folder set for both.
 
 Adding these to our .env file we can now try out our first command. `yarn g:entity User`. You should see a new User.ts file appear within your entities folder. As *exciting* as it looks this will be our base for adding the User model and table to Postgres.
 
-![https://miro.medium.com/max/1890/1*mO9z-h0HYRX8jmu6uCu2YA.png](https://miro.medium.com/max/1890/1*mO9z-h0HYRX8jmu6uCu2YA.png)
-
-![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/envexample.png)
+![blank user entity](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/blankUserEntity.png)
 
 # **Adding the user table**
 
 Let’s start building this User Entity out. I’m going to be covering a handful of example types here just to show how TypeORM migrations shine. TypeORM uses its helpers to define columns for the database tables. We also include our public and private typings here on the Entity for TypeScript. For starters, let’s add name and email columns by importing the `Column` helper from `typeorm`. We will also go ahead and import `Index` to make our email filed unique.
 
-![https://miro.medium.com/max/1250/1*bmXDKEz4k5iH9_n2mvFRuw.png](https://miro.medium.com/max/1250/1*bmXDKEz4k5iH9_n2mvFRuw.png)
+![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/ColumnFields.png)
 
 Taking a closer look you’ll notice that Column takes an object of keys that are database specific. Underneath each of these, you’ll also see the field is defined as a public field for typescript. A quick note, you can define different field names within Column if you would like to map to something different. eg. first_name maps to firstName. We’ll see how this all plays out in a second but for now, let’s keep going.
 
 Enums. At some point, you’ll want to add a field that has limited values. For this example, we are going to add a role to the user. Similar to the other fields we will still use Column, but expand on the type options for Postgres. We’ve also defined this as a constant type to use within our application code.
 
-![https://miro.medium.com/max/1230/1*UxD5cFzUOVaUMAnYXbLEug.png](https://miro.medium.com/max/1230/1*UxD5cFzUOVaUMAnYXbLEug.png)
+![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/EnumField.png)
 
 Finally, you’ll notice I’ve used TypeORM’s utils for timestamps and primary keys. I’ve also brought in a before insert helper to set the primary id to a UUID rather than the Postgres default of 1, 2, 3. I know this is a lot but you altogether you should be looking at something like this.
 
