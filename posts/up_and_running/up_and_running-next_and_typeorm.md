@@ -81,13 +81,15 @@ So we have a script that creates our databases and scripts to create an entity a
 
 If you are following along in the repo take a peek at `.env.example` quite a few variables have been added in for TypeORM.
 
-![env example photo](https://raw.githubusercontent/mthomps4/posts/master/posts/up_and_running/images/now-next/envexample.png)
+![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/envexample.png)
 
 You have the normal DB setup here with connection type, host, db, port, etc. but we also have some ENV’s set for Entities Migrations and their respective directories. TypeORM will look to these files when making a comparison for migrations and use the directories when we generate new content. If you look into the root of our project you’ll see a folder set for both.
 
 Adding these to our .env file we can now try out our first command. `yarn g:entity User`. You should see a new User.ts file appear within your entities folder. As *exciting* as it looks this will be our base for adding the User model and table to Postgres.
 
 ![https://miro.medium.com/max/1890/1*mO9z-h0HYRX8jmu6uCu2YA.png](https://miro.medium.com/max/1890/1*mO9z-h0HYRX8jmu6uCu2YA.png)
+
+![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/envexample.png)
 
 # **Adding the user table**
 
