@@ -1,8 +1,10 @@
+![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part2/IMG_3957.jpg)
+
 # Software Development: A Woodworkers Perspective (Part 2)“Use Your Resources”
 
 March 26, 2019
 
-- [Part 1: Planning and Preparation](https://blog.echobind.com/software-development-a-woodworkers-perspective-part-1-e0918592e05)
+- [Part 1: Planning and Preparation](./software_development_a_woodworkers_perspective_(part1)-planning_and_preperation.md)
 
 # **Use your resources**
 
@@ -12,17 +14,11 @@ When building this box I needed to have a slot for the back and front panels to 
 
 So, what happens when these resources aren’t available? You can’t just call it quits. There’s work to be done and again we aim to always push forward. So you have two options, work with what you have… or track down the resources. When funding is low, you work with what ya got. In my case, it was a router plane and coping saw. It took some time, but in the end, I had what I needed. Using different methods caused me to slow down and focus which was not a bad thing. After a while, there seemed to be a soothing repetitiveness to the work. Make a few cuts, lower the blade, repeat. It gave me time to think, time to actually enjoy what I was doing. When using alternative methods don’t get frustrated. Learn from them. Efficiency doesn’t come from a resource. It comes from practice. A faster tool doesn’t necessarily mean a faster build.
 
-![https://miro.medium.com/max/30/1*snntytdxC4iIIzK8nRHqYA.jpeg?q=20](https://miro.medium.com/max/30/1*snntytdxC4iIIzK8nRHqYA.jpeg?q=20)
 
-![https://miro.medium.com/max/3024/1*snntytdxC4iIIzK8nRHqYA.jpeg](https://miro.medium.com/max/3024/1*snntytdxC4iIIzK8nRHqYA.jpeg)
+ Use your resources | Matt Thompson | [@3wirebuild](https://instagram.com/3wirebuild)
+--- | --- | ---
+![trio-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part2/IMG_3795.jpg)  | ![trio-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part2/IMG_3814.jpg) | ![trio-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part2/IMG_3815.jpg)
 
-![https://miro.medium.com/max/30/1*PJH2dI8UcTb7qjyQOoycdw.jpeg?q=20](https://miro.medium.com/max/30/1*PJH2dI8UcTb7qjyQOoycdw.jpeg?q=20)
-
-![https://miro.medium.com/max/3024/1*PJH2dI8UcTb7qjyQOoycdw.jpeg](https://miro.medium.com/max/3024/1*PJH2dI8UcTb7qjyQOoycdw.jpeg)
-
-![https://miro.medium.com/max/30/1*g-DmGfV1hqL76sGZflU7Mw.jpeg?q=20](https://miro.medium.com/max/30/1*g-DmGfV1hqL76sGZflU7Mw.jpeg?q=20)
-
-![https://miro.medium.com/max/3024/1*g-DmGfV1hqL76sGZflU7Mw.jpeg](https://miro.medium.com/max/3024/1*g-DmGfV1hqL76sGZflU7Mw.jpeg)
 
 # **The Crossover**
 

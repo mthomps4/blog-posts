@@ -1,6 +1,9 @@
+![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part3/IMG_3791.jpg)
+
+
 # Software Development: A Woodworkers Perspective (Part 3) “Every Cut Counts”
 
-- [Part 2: Use Your Resources](https://medium.com/@3wirebuild/software-development-a-woodworkers-perspective-part-2-3d969e0edd08)
+- [Part 2: Use Your Resources](./software_development_a_woodworkers_perspective_(part3)-every-cut-counts)
 
 # **Square Up**
 
@@ -10,19 +13,10 @@ Don’t get ahead of yourself.
 
 Wood moves. Here in Kentucky, the humidity and temperature dramatically change… daily. Even after surfacing the lumber it’s always a good idea to double check with a square. Unless that is, you are after a wobbly, half-jointed, paperweight. Square those pieces up. You may have spent time with each section. You may have paid extra attention to how every corner of each piece looks — But put them next to one another and suddenly what looked dead square is now nothing but a rhombus-shaped coaster. There’s no unseeing it. If you had kept building the finished piece would have been twisted, leaning, and barely functional. When working with each piece keep the others in mind. Remember how they interact and don’t lose sight of the end goal.
 
-Square Up!
+ Square Up! | Matt Thompson | [@3wirebuild](https://instagram.com/3wirebuild)
+--- | --- | ---
+![trio-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part3/IMG_3789.jpg)  | ![trio-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part3/IMG_3791.jpg) | ![trio-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part3/IMG_3792.jpg)
 
-![https://miro.medium.com/max/30/1*mjz0UpZ6iHopbXG6xFvhyw.jpeg?q=20](https://miro.medium.com/max/30/1*mjz0UpZ6iHopbXG6xFvhyw.jpeg?q=20)
-
-![https://miro.medium.com/max/3024/1*mjz0UpZ6iHopbXG6xFvhyw.jpeg](https://miro.medium.com/max/3024/1*mjz0UpZ6iHopbXG6xFvhyw.jpeg)
-
-![https://miro.medium.com/max/30/1*EFWtNH-G2Lp8JN4M5K7vYw.jpeg?q=20](https://miro.medium.com/max/30/1*EFWtNH-G2Lp8JN4M5K7vYw.jpeg?q=20)
-
-![https://miro.medium.com/max/3024/1*EFWtNH-G2Lp8JN4M5K7vYw.jpeg](https://miro.medium.com/max/3024/1*EFWtNH-G2Lp8JN4M5K7vYw.jpeg)
-
-![https://miro.medium.com/max/30/1*0Q72Kf0wvpBCxC069L_hJw.jpeg?q=20](https://miro.medium.com/max/30/1*0Q72Kf0wvpBCxC069L_hJw.jpeg?q=20)
-
-![https://miro.medium.com/max/3024/1*0Q72Kf0wvpBCxC069L_hJw.jpeg](https://miro.medium.com/max/3024/1*0Q72Kf0wvpBCxC069L_hJw.jpeg)
 
 # **Every Cut Counts**
 
@@ -30,19 +24,9 @@ With every cut for this box, sawdust was made. Every cut I swept the sawdust int
 
 Along the way, mistakes *will* happen. Don’t ignore them… Learn from them. In the photos below you’ll see a few examples. I didn’t quite saw to my line. When marking a line with my square… it moved. Even when cutting “exactly” to the line there were a few gaps when piecing the boards together. It’s rough, you spend a lot of time trying to be accurate, planning to make the perfect piece, but you’re human. At this point don’t freak out. Examine what went wrong for next time. How can you improve? This is the teaching stage. It’s also the stage where most give up. Keep your chin up, keep pushing forward. As a woodworker, that collection of sawdust at the end of the bench — experience. Mistakes will always happen. Patch it the best you can, and move on. In the end.. they’ll never notice. Every cut counts, good and bad, You will learn from both.
 
-Mistakes Happen…
-
-![https://miro.medium.com/max/30/1*IzI5wkoJbivEduPrAygQsg.jpeg?q=20](https://miro.medium.com/max/30/1*IzI5wkoJbivEduPrAygQsg.jpeg?q=20)
-
-![https://miro.medium.com/max/3024/1*IzI5wkoJbivEduPrAygQsg.jpeg](https://miro.medium.com/max/3024/1*IzI5wkoJbivEduPrAygQsg.jpeg)
-
-![https://miro.medium.com/max/30/1*U-H9XSCeZwcfm-M8jRNjLg.jpeg?q=20](https://miro.medium.com/max/30/1*U-H9XSCeZwcfm-M8jRNjLg.jpeg?q=20)
-
-![https://miro.medium.com/max/3024/1*U-H9XSCeZwcfm-M8jRNjLg.jpeg](https://miro.medium.com/max/3024/1*U-H9XSCeZwcfm-M8jRNjLg.jpeg)
-
-![https://miro.medium.com/max/30/1*XEW0i_h1DlN7Ci3sJ_uGDg.jpeg?q=20](https://miro.medium.com/max/30/1*XEW0i_h1DlN7Ci3sJ_uGDg.jpeg?q=20)
-
-![https://miro.medium.com/max/3024/1*XEW0i_h1DlN7Ci3sJ_uGDg.jpeg](https://miro.medium.com/max/3024/1*XEW0i_h1DlN7Ci3sJ_uGDg.jpeg)
+Mistakes Happen… | Matt Thompson | [@3wirebuild](https://instagram.com/3wirebuild)
+--- | --- | ---
+![trio-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part3/IMG_3808.jpg)  | ![trio-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part3/IMG_3827.jpg) | ![trio-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part3/IMG_3834.jpg)
 
 # **The Crossover**
 

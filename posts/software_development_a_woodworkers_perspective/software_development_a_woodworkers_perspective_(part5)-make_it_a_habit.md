@@ -1,9 +1,13 @@
+![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part5/designer-working-on-laptop.jpg)
+[unsplash.com](https://unsplash.com/)
+
+
 # Software Development: A Woodworkers Perspective (Final) “Make it a habit!”
 
-- [Plan and Prep](https://blog.echobind.com/software-development-a-woodworkers-perspective-part-1-e0918592e05)
-- [Use your resources](https://medium.com/@3wirebuild/software-development-a-woodworkers-perspective-part-2-3d969e0edd08)
-- [Learn from every experience good and bad](https://medium.com/@3wirebuild/software-development-a-woodworkers-perspective-part-3-a54a9843967d)
-- [Don’t be a hero](https://medium.com/@3wirebuild/software-development-a-woodworkers-perspective-part-4-5e319d27ecdb)
+- [Plan and Prep](./software_development_a_woodworkers_perspective_(part1)-planning_and_preperation.md)
+- [Use your resources](./software_development_a_woodworkers_perspective_(part2)-use_your_resources.md)
+- [Learn from every experience good and bad](./software_development_a_woodworkers_perspective_(part3)-every-cut-counts.md)
+- [Don’t be a hero](./software_development_a_woodworkers_perspective_(part4)-don't_be_a_hero.md)
 - Finally, make it all a habit.
 
 # **Make it a Habit**
@@ -38,6 +42,10 @@ Do Good. Then do good work.
 
 Until next time,Cheers!
 
-![https://miro.medium.com/max/30/1*LmpjRutSio89fm4nbj8InA.png?q=20](https://miro.medium.com/max/30/1*LmpjRutSio89fm4nbj8InA.png?q=20)
 
-![https://miro.medium.com/max/593/1*LmpjRutSio89fm4nbj8InA.png](https://miro.medium.com/max/593/1*LmpjRutSio89fm4nbj8InA.png)
+![sharpening plane iron](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part5/screenshot.jpg)
+Photo by [Matt Thompson @3wirebuild](https://instagram.com/3wirebuild)
+
+
+
+_note: Is this your title image? I lost the reference along the way... Let me know here! [github](https://github.com/mthomps4/posts)_
