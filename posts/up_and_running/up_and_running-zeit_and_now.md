@@ -1,6 +1,6 @@
 
 # Up and Running: ZEIT Now Environments
-![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg)
+![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/zeit-now/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg)
 
 Photo by [Dominik Schröder](https://unsplash.com/@wirhabenzeit?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/)
 
@@ -76,5 +76,5 @@ Let’s look at one of these in detail, ignoring NOW_TOKEN all of these commands
 
 With these two yarn commands, GitLab CI/CD will deploy and alias our domains as expected. Merging a branch into staging will update `[staging-next-now-test.now.sh](<http://staging-next-now-test.now.sh>)` and merging to master will update `production-next-now-test.now.sh`.
 
-![Deployed Example Photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/deployedExample.png)
+![Deployed Example Photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/zeit-now/deployedExample.png)
 

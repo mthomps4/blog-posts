@@ -1,6 +1,6 @@
 # Up and Running — Next.js and TypeORM - Part II
 
-![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg)
+![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg)
 
 Photo by [Kevin Ku](https://unsplash.com/@ikukevk) on [Unsplash](https://unsplash.com/)
 
@@ -103,7 +103,7 @@ Enums. At some point, you’ll want to add a field that has limited values. For 
 
 Finally, you’ll notice I’ve used TypeORM’s utils for timestamps and primary keys. I’ve also brought in a before insert helper to set the primary id to a UUID rather than the Postgres default of 1, 2, 3. I know this is a lot but you altogether you should be looking at something like this.
 
-![https://miro.medium.com/max/1870/1*xNcDvSD6fAp2nODgzqa7Dw.png](https://miro.medium.com/max/1870/1*xNcDvSD6fAp2nODgzqa7Dw.png)
+![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/FullUserModel.png)
 
 # **Migrations**
 
@@ -113,13 +113,16 @@ Great, we have a User Entity but what does all this code buy us? Let’s get bac
 
 Everything looks good. Let’s run one more command. `yarn db:migrate:local` under the hood, this uses our custom `typeorm:local` setup and runs the typeorm command `migrations:run`. You should see an output similar to below and check Postgres to see that the user table was created.
 
-![https://miro.medium.com/max/891/1*E9JarQud6Olk24jIosYsmw.png](https://miro.medium.com/max/891/1*E9JarQud6Olk24jIosYsmw.png)
+
+
+![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/migrate.png)
 
 # **Making Some Users**
 
 Alright, so far we’ve made our Entity, created and ran our Migrations, let’s get some Users into the database. While you could do this manually, we want to make this dynamic enough that others can get up and running as well. We’ll create a Factory and create a user seed file to create some users. Eventually, this Factory can also be used to test our users. Inside of our example codebase, you’ll see a folder for `factories` with the following code inside the UserFactory.
 
-![https://miro.medium.com/max/1230/1*HfFwZkM3Xuz0QsPgGxX1Fg.png](https://miro.medium.com/max/1230/1*HfFwZkM3Xuz0QsPgGxX1Fg.png)
+
+![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/UserFactory.png)
 
 The big thing to note here is our build and create methods. With TypeORM you have the ability to `create` the record and validate it before we `save` it to the database. We know what record this will be by accessing the `getReposiotry` method and passing in our `Entity`. It's also worth noting TypeORM will add any of the default and null values missing from `userAttrs`. In this case, the only key required is email, we've used the chance library here to ensure one is always created but we can also pass other fields in to add to or overwrite our factory defaults. Now we can import this in a seed file and run our create method.
 
@@ -131,25 +134,30 @@ Adding more of these lines we can attempt to run this seed file within our yarn 
 
 Again, this will use our custom `local` config that points to the correct ENV credentials for TypeORM and runs our seed file. If everything ran successfully you should see some users in the Database!
 
-![https://miro.medium.com/max/1080/1*bMEGBvsg5T6cEkZpw2ufbQ.png](https://miro.medium.com/max/1080/1*bMEGBvsg5T6cEkZpw2ufbQ.png)
+
+![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/db-preview.png)
 
 # **Show Me Some Users!**
 
 Nice, we’ve set up **a lot** of useful tools and got some users in the database, but data means nothing if we can’t view it. We are going to expand on Next.js REST API to get our Users. With Next.js, inside of the pages folder, their lies an `api` folder. This folder is used by Next.js to create endpoints dynamically based on the file names. In this example, we've made a `getUsers` file with the following. In the example here we are simply returning all users, importing our User Entity and the `getRepository` again we have access to the `.find()` method. We connect to our database, ensure we can find the entity and find the users returning them as a JSON Blob for our app. In the real world, you'll want to expand this for error handling but this works fine for now.
 
-![https://miro.medium.com/max/1230/1*Q0Oyg8jMeqYNN1hLB6VL5Q.png](https://miro.medium.com/max/1230/1*Q0Oyg8jMeqYNN1hLB6VL5Q.png)
+
+![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/getUser.png)
 
 I’m sure you were wondering if we would ever get to this point, but let’s start up our app by running either `now dev` or `yarn now:dev`. Running our Next.js app with Now ensures our ENV's are compiled in properly. Once the app has started, navigate to `localhost:3000/api/getUsers`. You should have some data!
 
-![https://miro.medium.com/max/1230/1*Sa146WW8ERgc8wFaP5pF8A.png](https://miro.medium.com/max/1230/1*Sa146WW8ERgc8wFaP5pF8A.png)
+
+![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/userjson.png)
 
 Fantastic! Let’s wrap this up and add some data to our home page. To do this we’ll use Reacts `useState` and `useEffect` hook to hit our API. Within our index page, we will add these lines.
 
-![https://miro.medium.com/max/1250/1*YXffeEjHiN2GGclVhoem8w.png](https://miro.medium.com/max/1250/1*YXffeEjHiN2GGclVhoem8w.png)
+![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/getUserEffect.png)
+
 
 You should be able to map users and style however you’d like. With the app still running, navigate back to `localhost:3000` and check out your results.
 
-![https://miro.medium.com/max/1226/1*iVT4fIpk4HDq1ckshPSHKg.png](https://miro.medium.com/max/1226/1*iVT4fIpk4HDq1ckshPSHKg.png)
+
+![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/HomeWithUsers.png)
 
 # **Wrapping up**
 
