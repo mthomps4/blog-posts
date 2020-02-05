@@ -4,11 +4,12 @@
 
 # Software Development: A Woodworkers Perspective (Final) “Make it a habit!”
 
-- [Plan and Prep](./software_development_a_woodworkers_perspective_(part1)-planning_and_preperation.md)
-- [Use your resources](./software_development_a_woodworkers_perspective_(part2)-use_your_resources.md)
-- [Learn from every experience good and bad](./software_development_a_woodworkers_perspective_(part3)-every-cut-counts.md)
-- [Don’t be a hero](./software_development_a_woodworkers_perspective_(part4)-don't_be_a_hero.md)
-- Finally, make it all a habit.
+**Previous:**
+[Plan and Prep](./software_development_a_woodworkers_perspective_(part1)-planning_and_preperation.md)
+[Use your resources](./software_development_a_woodworkers_perspective_(part2)-use_your_resources.md)
+[Learn from every experience good and bad](./software_development_a_woodworkers_perspective_(part3)-every-cut-counts.md)
+[Don’t be a hero](./software_development_a_woodworkers_perspective_(part4)-don't_be_a_hero.md)
+Finally, make it all a habit.
 
 # **Make it a Habit**
 
@@ -36,7 +37,7 @@ I know if I keep building on my mistakes…
 — *I’ll continue to grow.
 — I’ll be able to help others grow*
 
-Regardless of your profession.Woodworking, Development, or other, as we continue to push forward, to make mistakes and learn, I hope we can do so together.
+Regardless of your profession.Woodworking, Development, or other, as we continue to push forward to make mistakes and learn, I hope we can do so together.
 
 Do Good. Then do good work.
 
@@ -47,5 +48,5 @@ Until next time,Cheers!
 Photo by [Matt Thompson @3wirebuild](https://instagram.com/3wirebuild)
 
 
-
+--------
 _note: Is this your title image? I lost the reference along the way... Let me know here! [github](https://github.com/mthomps4/posts)_

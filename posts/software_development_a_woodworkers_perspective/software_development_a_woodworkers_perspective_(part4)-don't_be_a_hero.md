@@ -3,7 +3,8 @@
 
 # Software Development: A Woodworkers Perspective (Part 4) “Don’t Be A Hero”
 
-- [Part 3: Every Cut Counts](./software_development_a_woodworkers_perspective_(part3)-every-cut-counts)
+**Previous:**
+[Part 3: Every Cut Counts](./software_development_a_woodworkers_perspective_(part3)-every-cut-counts)
 
 # **Don’t be a Hero**
 
@@ -29,5 +30,5 @@ You can’t invest 110% in all areas of your life.At least not at the same time.
 
 **Don’t be a hero — It hurts.**
 
-
+-----------
 _note: Is this your title image? I lost the reference along the way... Let me know here! [github](https://github.com/mthomps4/posts)_

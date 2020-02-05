@@ -3,7 +3,8 @@
 
 # Software Development: A Woodworkers Perspective (Part 3) “Every Cut Counts”
 
-- [Part 2: Use Your Resources](./software_development_a_woodworkers_perspective_(part2)-use_your_resources)
+**Previous:**
+[Part 2: Use Your Resources](https://www.mthomps4.com/blog/software-development-a-woodworkers-perspective-use-your-resources)
 
 # **Square Up**
 
