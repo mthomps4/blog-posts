@@ -50,7 +50,7 @@ I’m going to highlight a few of them as a quick overview of where we are:
 
 This is probably the quickest way to demo and experiment with GraphQL in my opinion. This setup uses the ‘express-graphql’ and ‘graphql’ packages. This used to be the example given within the graphql docs itself. Ignoring some details below, you can see that Express sets up a route at `/graphql`. This exposes an endpoint pointing to our full `graphql` setup. From here, it's all back to the GraphQL docs to learn how to build out a new Schema, Queries, Resolvers, etc. There’s no doubt these two packages make up the foundation of some of the following tools. This setup will allow you to get your feet wet, spending more time in the GraphQL docs and less time questioning how to set it up.
 
-![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/graphql_the_dev_edition/images/express.png)
+![express example](https://raw.githubusercontent.com/mthomps4/posts/master/posts/graphql_the_dev_edition/images/express.png)
 
 As the community took off with GraphQL, you could imagine it became sort of a leg race to be *THE* GraphQL solve all. If you ask me — that marathon is continuing today. The remaining list below has grown and evolved since their first iterations. As a brief of each, I may have left something out, but again they each have merit, so if something strikes your interest, ***dive in***!
 
@@ -66,12 +66,9 @@ GraphQL Yoga’s Pitch:
 
 Prisma came on the scenes trying to solve the boilerplate issue. I already have my database, I already have my models, can’t we just wrap this in some way? Focusing more on Deployment options and wrappers, Prisma started creating the idea of GraphQL as a service tooling. This came with pre-built filters from your models ditching all custom boilerplate you may have needed otherwise. Below you’ll see their example of posts, `prisma.posts` already has a `where` and `orderBy` clause defined, but look further, `where` also has helpers for things like *`_contains`,* `_ends_with`, etc.
 
-
-![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/graphql_the_dev_edition/images/prisma-posts.png)
-
 Prisma is now working on 2.0 which is to include its own type of ORM tooling expanding the above into a more chain-able dot syntax and expanding it’s database migration tools.
 
-    const postsByUser: Post[] = await photon  .users  .findOne({ where: { email: 'ada@prisma.io' }})  .posts()
+`const postsByUser: Post[] = await photon.users.findOne({ where: { email: 'ada@prisma.io' }}).posts()`
 
 At this point, GraphQL as a service seems to be a big push. I’ll be interested to see how some of these tools shake out over time. Prisma learned a lot through its first iteration, and while the initial 1.0 setup felt a bit off, 2.0 seems to be making leaps based off community feedback. This is worth keeping an eye on.
 
