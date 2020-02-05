@@ -43,7 +43,7 @@ Do Good. Then do good work.
 Until next time,Cheers!
 
 
-![sharpening plane iron](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part5/screenshot.jpg)
+![Finsihed Bottle Case](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part5/screenshot.png)
 Photo by [Matt Thompson @3wirebuild](https://instagram.com/3wirebuild)
 
 
