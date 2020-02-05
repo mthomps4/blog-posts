@@ -50,7 +50,7 @@ I’m going to highlight a few of them as a quick overview of where we are:
 
 This is probably the quickest way to demo and experiment with GraphQL in my opinion. This setup uses the ‘express-graphql’ and ‘graphql’ packages. This used to be the example given within the graphql docs itself. Ignoring some details below, you can see that Express sets up a route at `/graphql`. This exposes an endpoint pointing to our full `graphql` setup. From here, it's all back to the GraphQL docs to learn how to build out a new Schema, Queries, Resolvers, etc. There’s no doubt these two packages make up the foundation of some of the following tools. This setup will allow you to get your feet wet, spending more time in the GraphQL docs and less time questioning how to set it up.
 
-    var express = require('express');var graphqlHTTP = require('express-graphql');var { buildSchema } = require('graphql');var schema = buildSchema(`  type Query {    hello: String  }`);var root = { hello: () => 'Hello world!' };var app = express();app.use('/graphql', graphqlHTTP({  schema: schema,  rootValue: root,  graphiql: true,}));app.listen(4000, () => console.log('Now browse to localhost:4000/graphql'));
+![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/graphql_the_dev_edition/images/express.png)
 
 As the community took off with GraphQL, you could imagine it became sort of a leg race to be *THE* GraphQL solve all. If you ask me — that marathon is continuing today. The remaining list below has grown and evolved since their first iterations. As a brief of each, I may have left something out, but again they each have merit, so if something strikes your interest, ***dive in***!
 
@@ -67,17 +67,7 @@ GraphQL Yoga’s Pitch:
 Prisma came on the scenes trying to solve the boilerplate issue. I already have my database, I already have my models, can’t we just wrap this in some way? Focusing more on Deployment options and wrappers, Prisma started creating the idea of GraphQL as a service tooling. This came with pre-built filters from your models ditching all custom boilerplate you may have needed otherwise. Below you’ll see their example of posts, `prisma.posts` already has a `where` and `orderBy` clause defined, but look further, `where` also has helpers for things like *`_contains`,* `_ends_with`, etc.
 
 
-```javascript
-    const posts: Post[] = await prisma.posts({
-        where: {
-            published: true,
-            title_contains: "GraphQL"
-            author: { email_ends_with: "@prisma.io" }
-        },
-        orderBy: "createdAt_ASC"
-    })
-```
-
+![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/graphql_the_dev_edition/images/prisma-posts.png)
 
 Prisma is now working on 2.0 which is to include its own type of ORM tooling expanding the above into a more chain-able dot syntax and expanding it’s database migration tools.
 
@@ -91,7 +81,7 @@ Do you run all your services in the cloud already? Are you considering it? Do yo
 
 Do you want to stay up to date with AWS Amplify? I’d recommend giving [Nader Dabit](https://twitter.com/dabit3) a follow.
 
-**Apollo Server**
+**[Apollo Server](https://www.apollographql.com/docs/apollo-server/)**
 
 I know I said there was no one-size-fits-all GraphQL package, I kind of lied. It’s hard to search GraphQL and *NOT* see Apollo mentioned at this point in the game and for a good reason. While AWS and others are pushing forward with serverless tech, Apollo, at least for now, has kind of set the standard for server/client setups. Regardless of which server-side setup you choose, you’ll be reaching for Apollo at some point for the client-side. Apollo client has been the most supported, and community-driven. It has also improved upon its cache store, subscriptions, and stayed up to date with ESX features and state management features like React Hooks. At this point, Apollo has enough tooling and configuration options to merit its own blog post. It’s safe to say if you aren’t sure which option is best for your team, Apollo is a safe bet.
 
@@ -103,9 +93,7 @@ I know I said there was no one-size-fits-all GraphQL package, I kind of lied. It
 - **Data Normalization** — Sometimes your API may manage calls and data that aren’t it’s own. This is always awkward for the consuming user. What if it errors? The user also has to parse this JSON blob and hope what they need is there. You can help the user by turning those third party calls into defined graphQL calls and normalize the return. This can be as simple as `{success: true, data: "JSON"}` or take this further, and define Types for that JSON blob. Now not only can the user quickly parse a successful call, but they can ask specifically for the information needed.
 
 
-```javascript
-    getBlogPost {   success   data { id title body }   errors }
-```
+![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/graphql_the_dev_edition/images/getBlogPost.png)
 
 
 - **Multiple Languages** — If you haven’t caught on by now the community is huge. GraphQL has been around longer than most think and is more than just a fancy new way to build a web app. You can use GraphQL in just about any tech stack. *[graphql.org/code](http://graphql.org/code)*
@@ -113,18 +101,7 @@ I know I said there was no one-size-fits-all GraphQL package, I kind of lied. It
 - **Clean Data** — We’ve hinted at this already, but your data now becomes typed and defined. As long as you’ve got some error handling in play, you can normalize all your results into something human-readable and reliable. Adding things like custom `Scalars` enhances your data, and ensures it is serialized or parsed before ever reaching your DB/User.
 - **Dynamic Use** — Once you get a few endpoints up and running, you’ll realize a lot of the functionality can be broken down into similar patterns. These patterns include filters, order, pagination, etc., as well as relational lookups via Resolvers. Not only will these patterns simplify maintenance for your devs, but now it’s on the end-user to ask for what they need. Instead of supporting 10 different routes for ‘users’, we simply have a query endpoint for `users` with all the required patterns in play. It's now on the end-user to decide what they need. Maintenance becomes adding new where filters with the appropriate joins as you scale, and the end-user is good to go. Your Front-End devs can also get used to this pattern. I need 'X' users with 'Y' posts. No more long conversations about which route does what, and worrying about if all the data returns. Ask and shall receive.
 
-```javascript
-    users(where: {...}, orderBy: {...}, pagination: {...})
-        {
-            id
-            firstName
-            posts (where: {...}, orderBy: {...}) {
-                id
-                title
-                body
-            }
-        }
-```
+![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/graphql_the_dev_edition/images/usersQuery.png)
 
 - **Documentation** — Real talk: keeping documentation up to date is a pain. Tech moves fast. With tooling to auto-export Schema, GraphiQL, and [graphQL playground](https://www.prisma.io/blog/introducing-graphql-playground-f1e0a018f05d) at your fingertips, documentation is no longer an issue. Staying diligent to add a quick description line here and there and you are good to go. GraphiQl and Playground will pick up on these lines to give a description to the call, but because everything is now typed, they also show the defined input and output of said call. You may even opt to create a GraphQL playground for your external users/clients. Keep a live server up to date with your GraphQL schema that returns dummy data. Users/clients can use this playground to get a feel for your API and learn how to integrate on their own. With its schema documented, most questions can be answered without the back and forth phone calls.
 - **Subscriptions** — Need real-time data? GraphQL supports subscriptions out of the box. Create your `Subscriptions` and have your FE peeps tie in.
@@ -159,4 +136,19 @@ While this may be obvious, it’s worth noting. GraphQL has the support of a ral
 I usually go by a quick smoke test to determine if GraphQL is worth it.
 
 **NO**
+- I need to create a small website for my friend Joe.
+We don't see ourselves needing a lot of endpoints (simple web app)
+- Take the now vs later approach here. Get the simple site up - wrap in GraphQL when/if you start to grow
 
+**YES**
+- Are you supporting multiple Apps (Web/Admin/Mobile)
+- Mobile API? (maybe look at Amplify)
+- Is this a long term project that will continue to grow and scale?
+
+As to what tools, packages, etc., that is up to you. Use GraphQL for what you need, how you need it, with the tools you need.
+
+## Conclusion
+This should serve as a good primer for choosing or not choosing GraphQL on your projects. I plan to follow up on this overview with some code. "GraphQL 
+>  Talk is cheap, show me the Code!"
+
+I'll be diving into some of the patterns mentioned here, and showcasing some of our own "gotchas" we've solved for along the way. Stay tuned!
