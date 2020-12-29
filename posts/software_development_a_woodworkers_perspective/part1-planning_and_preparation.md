@@ -6,7 +6,7 @@ Photo by [Matt Thompson @3wirebuild](https://instagram.com/3wirebuild)
 
 If you read [my intro article](./software_development_a_woodworkers_perspective.md), you’ll know I’ve been reading a lot of books about “Mastering your craft”. Along the way, I’ve found multiple cross-overs between what I aim to accomplish as a hobbyist and in my day-to-day as a software engineer. I decided to share these points as advice we hear over and over, this time as a woodworker rehashing the process it took to make a small box. If anything, maybe I’ll finally learn to apply these same principles I keep reading about. Maybe…
 
-# Take the time, you’ll thank yourself later.
+# Take the time, you’ll thank yourself later
 
 # **Planning and Preparation**
 
@@ -20,7 +20,7 @@ You’ve thought about the project and made as many mental notes as your brain w
 
 To stay productive, you need to stay organized… or so I’m told. You try to keep the shop clean knowing if everything is in arms reach work can be done. Knowing you’ve done all you can, you approach the workbench with an attitude of *just* *getting stuff done*. It’s about this time my brain starts to think about anything and everything else. My mind is **loud**. Regardless of what I do. It takes a fair amount of time to focus and for that reason, it’s always best to take a minute and settle into the task at hand. A warm up. Start with something small. Layout the tools you’ll need, review your notes, get re-acquainted with the work. It’s not going anywhere. Getting prepared for a project has nothing to do with it. Sometimes, you may need to step away and take care of the distractions and other to-do items that keep popping into play. If all else fails, find a place to escape.
 
-# Keep your ego in check. If possible start with something unrelated to the project. Make a few test cuts, and get in the mindset. Make sure you’re focused.
+# Keep your ego in check. If possible start with something unrelated to the project. Make a few test cuts, and get in the mindset. Make sure you’re focused
 
 It all seems simple enough, but after your first couple of projects you’ll hit a point where you say to yourself “I’ve done this before”. I’ve made this same cut 1000 times over. Why is this one any different? Reaching for the saw, you start cutting into what will be the finished piece, without thought. You feel good about yourself. Accomplished even. Progress is being made and you are proud of it. Then it hits you… something’s wrong. When cutting joinery, it’s typically something stupidly preventable like cutting on the wrong side of a line or just cutting the side altogether. At this point, words are said and you’re back to square one. Literally — You’re back in the car, driving to the store to pick up new material and eating the cost. The whole time knowing it was preventable if you had just taken a second to layout the project. Keep your ego in check. If possible start with something unrelated to the project. Make a few test cuts, and get in the mindset. Make sure you’re focused.
 
@@ -29,7 +29,6 @@ Left: Start with something unrelated Middle: Mark it out. What stays? What goes?
  Plan and Prep! | Matt Thompson | [@3wirebuild](https://instagram.com/3wirebuild)
 --- | --- | ---
 ![trio-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part1/IMG_3785.jpg)  | ![trio-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part1/IMG_3797.jpg) | ![trio-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part1/IMG_3800.jpg)
-
 
 # **Layout**
 

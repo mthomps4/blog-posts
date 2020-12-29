@@ -1,39 +1,16 @@
-# posts
-Archive of blog posts for personal site and platforms.
+# Posts
 
-> Start here copy elsewhere.
-
-Uses Hygen to generate the folder structure needed/wanted.
-
-- `yarn`
-- `yarn new myPostName`
-
-This will create a named folder with the markdown file and an empty folder for `images`
-
-## Series Organization
-If building a series follow this pattern for naming more markdown files within the same folder.
-`main_series_title-sub_title.md`
-
-Later this can be reformatted if ever being transitioned to another platform
-
-Example:
-`up_and_running-next_and_typeorm.md`
-
-We known this title should be something like
-> Up and Running: Next and Typeorm
-
-The `-` can be transformed to `:` and ran through `titleize`
-
-
-## Links
-Blog to Blog Links are left relative to the project. These links will need to be updated based on the platform copied to.
-
-## Images
-Images should be downloaded and kept in case a 3rd party goes down or you move your personal storage without thinking.
-
-If using another creators image (_ie Free Downloads from Upsplash_), the reference should be mentioned in the post istself.
-
-**NOTE:** A raw github url is used for the image to allow for future migration of markdown files.
-
-Example: If I copy this post to Medium and Dev.to - the photo links will already be set and documented.
-Copying over to a DB for a personal blog. Good. To. Go. :+1:
+| Title       | Date Published        |
+| ----------- | ----------- |
+| [software development a woodworkers perspective](./posts/software_development_a_woodworkers_perspective/software_development_a_woodworkers_perspective.md)  | 01/01/2019  |
+| [software development a woodworkers perspective Part 1: Planning and Preparation](./posts/software_development_a_woodworkers_perspective/part1-planning_and_preparation.md)  | 01/14/2019  |
+| [software development a woodworkers perspective Part 2: Use Your Resources](./posts/software_development_a_woodworkers_perspective/part2-use_your_resources.md)  | 02/15/2019  |
+| [software development a woodworkers perspective Part 3: Every Cut Counts](./posts/software_development_a_woodworkers_perspective/part3-every-cut-counts.md)  | 03/01/2019  |
+| [software development a woodworkers perspective Part 4: Don't Be A Hero](./posts/software_development_a_woodworkers_perspective/part4-don't_be_a_hero.md)  | 03/15/2019  |
+| [software development a woodworkers perspective Part 5: Make It A Habit](./posts/software_development_a_woodworkers_perspective/part5-make_it_a_habit.md)  | 04/01/2019  |
+| [GraphQL the Dev Edition](./posts/graphql_the_dev_edition/graphql_the_dev_edition.md)  | 09/26/2019  |
+| [Rolling Your Team RPG Style](./posts/rolling_your_team_rpg_style/rolling_your_team_rpg_style.md)  | 10/21/2019  |
+| [Up and Running: Zeit and Now](./posts/up_and_running/zeit_and_now.md)  | 12/01/2019  |
+| [Up and Running: Next and TypeORM](./posts/up_and_running/next_and_typeorm.md)  | 12/15/2019  |
+| [Remote Workers: Help Your Neighbor](./posts/remote_workers/help_your_neighbor.md)  | 03/17/2020  |
+| [Hyper Focused -> Hyper Productive](./posts/hyper_focused-hyper_productive/hyper_focused-hyper_productive.md)  | 04/28/2020  |
