@@ -1,6 +1,7 @@
 
 # Rolling Your Team RPG Style
-![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/rolling_your_team_rpg_style/images/erica-li-Swd6d6M233k-unsplash.jpg)
+
+![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/blog-posts/rolling_your_team_rpg_style/images/erica-li-Swd6d6M233k-unsplash.jpg)
 
 Photo by [Erica Li](https://unsplash.com/@sept_pancake) on [Unsplash](https://unsplash.com/)
 
@@ -75,7 +76,6 @@ In the end, whether real-world projects or fantasy middle earth battles, remembe
 - Keep your tools sharp — there’s always another day
 
 **Until next time …**
-
 
 ![https://media.giphy.com/media/xb38NSYp5Nyo0/giphy.gif](https://media.giphy.com/media/xb38NSYp5Nyo0/giphy.gif)
 
